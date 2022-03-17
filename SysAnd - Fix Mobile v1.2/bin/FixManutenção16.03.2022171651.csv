@@ -1,0 +1,231 @@
+ID,Entrada,Patrimonio,Modelo,Cor,Defeito,Reparo,Status,Obs,Saida
+1,2022-01-27 00:00:00,BRM7092,Galaxy A01 Core (A013),Preto,Display Quebrado,,Consertado,,2022-01-27
+2,2022-02-04 00:00:00,BRM6322,Galaxy A01 Core (A013),Preto,Display quebrado,Display trocado,Consertado,Suporte,2022-02-09
+3,2022-02-04 00:00:00,BRM7576,Galaxy A01 Core (A013),Preto,Display queimado,Perda Total,Aguardando Compra,,
+4,2022-02-09 00:00:00,BRM6322,Galaxy A01 Core (A013),Preto,Não reconhece USB,Conector de carga reparado,Consertado,Estoque,1990-01-01
+5,2022-03-03 00:00:00,BRM7055,Galaxy A01 Core (A013),Preto,"Display quebrado, carca?a avariada",,Aguardando Reparo,,
+6,2022-01-05 00:00:00,BRM09052,Galaxy A03s (A037),Preto,Display Quebrado,Display trocado,Consertado,Movido para estoque,2022-02-07
+7,2022-02-17 00:00:00,BRM09009,Galaxy A03s (A037),Preto,N?o faz transferencia de dados,,Garantia,,
+8,2022-02-03 00:00:00,BRM4616,Galaxy A10s (A107),Azul,"Display, C?mera e Carca?a avariada",Perda Total,Sucata,Sucata,2022-02-03
+9,2022-01-17 00:00:00,BRM4282,Galaxy A10s (A107),Preto,Reboot,Software restaurado,Consertado,Estoque,2022-02-14
+10,2022-02-03 00:00:00,BRM6781,Galaxy A10s (A107),Azul,Display queimado,Perda Total,Sucata,Sucata,2022-02-03
+11,2022-02-02 00:00:00,BRM6195,Galaxy A10s (A107),Azul,"N?o liga, Display quebrado","Display trocado, falta conector de carga",Aguardando Compra,Aguardando compra,2022-02-03
+12,2022-01-27 00:00:00,BRM5334,Galaxy A10s (A107),Preto,Bateria,Placa principal trocada,Consertado,Estoque,2022-02-11
+13,2022-03-03 00:00:00,BRM4214,Galaxy A11 (A115),Preto,Display quebrado,,Aguardando Reparo,,
+14,2022-02-01 00:00:00,BRM1599,Galaxy J5 Prime (G570),Preto,"Display quebrado, carcaça avariada",Display trocado,Consertado,Movido para suporte,1990-01-01
+15,2021-12-13 00:00:00,BRM1632,Galaxy J5 Prime (G570),Preto,Display Quebrado,Display trocado,Consertado,Movido para suporte,2022-02-04
+16,2021-12-16 00:00:00,BRM1623,Galaxy J5 Prime (G570),Preto,Display/Touch,Display e aro do display trocado,Consertado,Movido para estoque,2022-02-07
+17,2021-12-23 00:00:00,BRM2193,Galaxy J5 Prime (G570),Preto,Display Quebrado,Display trocado,Consertado,Suporte,2022-02-07
+18,2022-01-04 00:00:00,BRM2287,Galaxy J5 Prime (G570),Preto,Display Quebrado,Display trocado,Consertado,Suporte,2022-02-04
+19,2022-03-04 00:00:00,BRM5689,Galaxy J5 Prime (G570),Preto,Display quebrado,,Aguardando Reparo,,
+20,2022-01-31 00:00:00,BRM1751,Galaxy J5 Pro (J530),Preto,Display Quebrado,Display trocado,Consertado,Movido para estoque,2022-01-31
+21,2022-02-04 00:00:00,BRM1765,Galaxy J5 Pro (J530),Preto,Display queimado,Falta Display,Aguardando Compra,,
+22,2022-01-25 00:00:00,BRM1524,Galaxy J7 Metal (J710),Preto,Display Quebrado,,Aguardando Compra,,
+23,2022-01-25 00:00:00,BRM1534,Galaxy J7 Metal (J710),Marrom,Display/Touch,,Aguardando Compra,,
+24,2022-02-09 00:00:00,BRM1319,Galaxy J7 Prime (G610),Preto,Display quebrado,,Aguardando Compra,,
+25,2022-01-20 00:00:00,BRM09731,Galaxy J7 Prime 2 (G611),Preto,Display Manchado,,Aguardando Compra,,
+26,2022-02-24 00:00:00,BRM8016,Galaxy S10e (G970),Azul,Display quebrado,,Aguardando Compra,,
+27,2021-12-22 00:00:00,BRM8034,Galaxy S10e (G970),Azul,Tampa Traseira Avariada,,Aguardando Compra,,
+28,2021-11-19 00:00:00,BRM4479,Galaxy S20 (G980),Prata,Display Quebrado,,Garantia,,
+29,2021-11-19 00:00:00,BRM5235,Galaxy S20 (G980),Prata,Bot?o Power,,Consertado,,2022-01-25
+30,2022-01-07 00:00:00,BRM3077,Galaxy S6 (G920),Preto,Display Quebrado,,Aguardando Compra,,
+31,2021-12-29 00:00:00,BRM2984,Galaxy S7 (G930),Dourado,"Carca?a/Chassi Avariada, Display Quebrado, Tampa Traseira Avariada",,Aguardando Compra,,
+32,2022-01-07 00:00:00,BRM8496,Galaxy S7 (G930),Dourado,"Carca?a/Chassi Avariada, Display Quebrado, Tampa Traseira Avariada",,Aguardando Compra,,
+33,2021-12-13 00:00:00,BRM2928,Galaxy S7 (G930),Dourado,Display Manchado,,Aguardando Compra,,
+34,2022-01-13 00:00:00,BRM5504,Galaxy S7 (G930),Dourado,Display Quebrado,,Aguardando Compra,,
+35,2022-02-08 00:00:00,BRM2937,Galaxy S7 (G930),Dourado,Display quebrado,,Aguardando Compra,,
+36,2022-01-20 00:00:00,BRM1006,Galaxy S7 (G930),Preto,Display Quebrado,,Aguardando Compra,,
+37,2022-01-07 00:00:00,BRM2920,Galaxy S7 (G930),Dourado,"Display Quebrado, N?o Liga",,Aguardando Compra,,
+38,2022-02-08 00:00:00,TAB2935,Galaxy S7 (G930),Preto,"Display, Tampa traseira quebrada",,Aguardando Compra,,
+39,2021-11-19 00:00:00,CEL0064,Galaxy S7 (G930),Preto,"Display/Touch, N?o Liga",,Aguardando Compra,,
+40,2022-02-18 00:00:00,BRM7354,Galaxy S7 Edge (G935),Dourado,Display quebrado,,Aguardando Compra,,
+41,2022-02-16 00:00:00,BRM09412,Galaxy S7 Edge (G935),Dourado,Tampa Traseira Avariada,,Consertado,Estoque,2022-02-16
+42,2022-01-12 00:00:00,BRM5597,Galaxy S8 (G950),Ametista,Display Quebrado,,Aguardando Chegada de Pe�as,,
+43,2022-01-12 00:00:00,BRM1544,Galaxy S8 (G950),Prata,Tampa Traseira Avariada,Tampa traseira trocada,Consertado,,2022-01-24
+44,2022-01-12 00:00:00,BRM1546,Galaxy S8 (G950),Prata,"Bot?o Power, Display Quebrado, Tampa Traseira Avariada",,Aguardando Chegada de Pe�as,,
+45,2021-11-19 00:00:00,BRM5558,Galaxy S8 (G950),Prata,Display Quebrado,,Aguardando Chegada de Pe�as,,
+46,2021-11-19 00:00:00,BRM5536,Galaxy S8 (G950),Prata,Display Quebrado,,Aguardando Chegada de Pe�as,,
+47,2021-11-19 00:00:00,BRM5534,Galaxy S8 (G950),Prata,Display Quebrado,,Aguardando Chegada de Pe�as,,
+48,2021-11-19 00:00:00,BRM4028,Galaxy S8 (G950),Prata,Display Quebrado,,Aguardando Chegada de Pe�as,,
+49,2021-11-19 00:00:00,BRM4015,Galaxy S8 (G950),Prata,Display Quebrado,,Aguardando Chegada de Pe�as,,
+50,2021-11-19 00:00:00,BRM5571,Galaxy S8 (G950),Prata,Display Quebrado,,Aguardando Chegada de Pe�as,,
+51,2021-11-19 00:00:00,BRM1548,Galaxy S8 (G950),Prata,Display Quebrado,,Aguardando Chegada de Pe�as,,
+52,2021-11-19 00:00:00,BRM4027,Galaxy S8 (G950),Prata,Display Quebrado,,Aguardando Chegada de Pe�as,,
+53,2022-01-12 00:00:00,BRM5511,Galaxy S8 (G950),Prata,Display Quebrado,,Aguardando Chegada de Pe�as,,
+54,2021-12-22 00:00:00,BRM5519,Galaxy S8 (G950),Prata,"Display Quebrado, Tampa Traseira Avariada",,Aguardando Chegada de Pe�as,,
+55,2022-02-14 00:00:00,BRM5542,Galaxy S8 (G950),Prata,Display e tampa traseira quebrados,,Aguardando Compra,,
+56,2022-02-14 00:00:00,BRM5551,Galaxy S8 (G950),Prata,Display e tampa traseira riscados,,Aguardando Compra,,
+57,2021-11-19 00:00:00,BRM3003,Galaxy S8 (G950),Preto,Display Quebrado,,Aguardando Chegada de Pe�as,,
+58,2021-11-19 00:00:00,BRM4019,Galaxy S8 (G950),Preto,Display Quebrado,,Aguardando Chegada de Pe�as,,
+59,2022-02-14 00:00:00,BRM3002,Galaxy S8 (G950),Preto,Display quebrado,,Aguardando Compra,,
+60,2022-01-12 00:00:00,BRM4029,Galaxy S8 (G950),Preto,"Pixel Morto, Tampa Traseira Avariada",,Aguardando Chegada de Pe�as,,
+61,2021-11-01 00:00:00,TAB2434,"Galaxy TAB A - 10.5"" (T590)",Preto,N?o sobe dados,,Aguardando An�lise,,
+62,2021-11-24 00:00:00,TAB1752,"Galaxy TAB A - 10.5"" (T590)",Preto,Carca?a/Chassi Avariada,,Aguardando Compra,,
+63,2021-11-19 00:00:00,TAB1426,"Galaxy Tab A 10.1"" (T510)",Preto,Display/Touch,,Aguardando Compra,,
+64,2021-11-19 00:00:00,TAB1989,"Galaxy TAB A 8"" (T290)",Preto,Slot SIM Card,,Aguardando Compra,,
+65,2022-01-13 00:00:00,TAB1206,"Galaxy Tab A 9.7"" (P555)",Cinza,"Carca?a/Chassi Avariada, Display Quebrado",,Aguardando Compra,,
+66,2022-01-13 00:00:00,TAB1001,"Galaxy Tab A 9.7"" (P555)",Cinza,"Carca?a/Chassi Avariada, Display Quebrado",,Aguardando Compra,,
+67,2022-01-13 00:00:00,TAB1085,"Galaxy Tab A 9.7"" (P555)",Cinza,"Carca?a/Chassi Avariada, Lente da C?mera Traseira Avariada",,Aguardando Compra,,
+68,2021-11-19 00:00:00,TAB1185,"Galaxy Tab A 9.7"" (P555)",Cinza,Display/Touch,,Aguardando Compra,,
+69,2021-11-19 00:00:00,TAB1187,"Galaxy Tab A 9.7"" (P555)",Cinza,Display/Touch,,Consertado,,2022-01-26
+70,2022-01-13 00:00:00,TAB1086,"Galaxy Tab A 9.7"" (P555)",Cinza,Display Riscado,,Aguardando Compra,,
+71,2021-11-19 00:00:00,BRM3125,"Galaxy Tab A6 7"" (T280)",Marrom,N?o sobe dados,,Aguardando An�lise,,
+72,2021-11-19 00:00:00,BRM3155,"Galaxy Tab A6 7"" (T280)",Marrom,N?o sobe dados,,Aguardando An�lise,,
+73,2021-11-19 00:00:00,BRM3141,"Galaxy Tab A6 7"" (T280)",Marrom,N?o sobe dados,,Aguardando An�lise,,
+74,2021-11-19 00:00:00,TAB1936,"Galaxy Tab A6 7"" (T280)",Marrom,N?o sobe dados,,Aguardando An�lise,,
+75,2021-11-19 00:00:00,TAB2190,"Galaxy Tab A6 7"" (T280)",Marrom,N?o sobe dados,,Aguardando An�lise,,
+76,2022-01-11 00:00:00,TAB2808,Galaxy Tab Active 2 (T395),Preto,Display Quebrado,Falta display e c?mera nova,Aguardando Compra,Display e lente removida para o conserto do TAB1981 / Voltar para caixa,2022-01-31
+77,2021-11-19 00:00:00,TAB1981,Galaxy Tab Active 2 (T395),Preto,Lente da C?mera Traseira Avariada,"Lente da c?mera, tampa traseira e display trocados",Consertado,Movido para estoque,2022-02-01
+78,2022-02-08 00:00:00,TAB0688,"Galaxy TAB E - 9.6"" (T561M)",Preto,Bateria,Falta bateria,Aguardando Compra,,
+79,2021-03-11 00:00:00,IPA5139,"iPad Air - 9.7"" Wi-fi (A1475)",Branco,"Bateria, Bot?o Home, Bot?o Sil?ncioso",Mandar para autorizada,Aguardando An�lise,Autorizada,2022-02-10
+80,2021-12-27 00:00:00,IPA5113,"iPad Air - 9.7"" Wi-fi (A1475)",Branco,N?o Liga,,Aguardando Compra,,
+81,2022-02-25 00:00:00,IPA5134,iPad Air (A1475),Preto,Bot?o home,,Aguardando Reparo,,
+82,2022-02-25 00:00:00,IPA5025,iPad Air (A1475),Branco,Touch Screen,,Aguardando Reparo,,
+83,2022-01-13 00:00:00,IPA5642,"iPad Air 2 - 9.7"" 4G (A1396)",Branco,Bateria,,Consertado,,2022-01-24
+84,2022-02-11 00:00:00,213207,iPhone 11 Pro Max (A2218),Prata,C?mera traseira e Display quebrado,,Aguardando Compra,,
+85,2022-02-09 00:00:00,OS000302,iPhone 6 (A1549),Branco,Bateria e conector de carga danificados,Bateria e conector de carga trocados,Consertado,Cliente Externo,2022-02-16
+86,2022-02-11 00:00:00,216552B,iPhone 7 (A1660),Preto,C?mera traseira e Display intermitrente,,Aguardando Compra,,
+87,2022-02-11 00:00:00,175592B,iPhone 7 (A1660),Branco,Audio Codec,,Sucata,Reparo do dia,2022-02-28
+88,2022-02-01 00:00:00,BRM2942,iPhone 8 (A1864),Preto,Carca?a/Chassi avariado,,Aguardando Compra,,
+89,2022-02-11 00:00:00,BRM090295,iPhone 8 (A1864),Preto,Tampa Traseira Avariada,,Aguardando Compra,,
+90,2022-02-11 00:00:00,176805F,iPhone X (A1865),Preto,Tampa Traseira Avariada,,Aguardando Compra,,
+91,2022-02-11 00:00:00,216364B,iPhone XS Max (A1921),Dourado,Tampa Traseira Avariada,,Aguardando Compra,,
+92,2022-01-07 00:00:00,BRM8898,Moto E6 Plus (XT2025),Cinza Met�lico,Tampa Traseira Avariada,,Aguardando Compra,,
+93,2022-02-28 00:00:00,BRM6139,Moto E6 Plus (XT2025),Azul,Display e tampa traseira avariada,,Aguardando Compra,,
+94,2022-03-07 00:00:00,BRM6126,Moto E6 Plus (XT2025),Vermelho Met�lico,Bateria e carca?a avariada,,Aguardando Compra,,
+95,2021-11-19 00:00:00,BRM8482,Moto E7 Plus (XT2081),Azul,Slot SIM Card,,Aguardando Garantia,,
+96,2022-02-17 00:00:00,BRM4851,Moto E7 Plus (XT2081),Azul,Carca?a avariada,,Aguardando Compra,,
+97,2022-01-20 00:00:00,BRM2004,Moto G5S Plus (XT1802),Preto,"Bateria, Display Manchado",,Consertado,,2022-01-24
+98,2022-01-24 00:00:00,BRM2586,Moto G5S Plus (XT1802),Preto,Conector de Carga/N?o Reconhece USB/N?o carrega,,Aguardando Compra,,
+99,2022-01-13 00:00:00,BRM2406,Moto G5S Plus (XT1802),Preto,N?o Liga,,Consertado,,2022-01-24
+100,2022-01-17 00:00:00,BRM1902,Moto G5S Plus (XT1802),Preto,Display Quebrado,,Aguardando Compra,,
+101,2022-01-20 00:00:00,BRM2445,Moto G5S Plus (XT1802),Preto,Display Quebrado,,Aguardando Compra,,
+102,2022-02-09 00:00:00,BRM1867,Moto G5S Plus (XT1802),Preto,Display quebrado,,Aguardando Compra,,
+103,2022-02-17 00:00:00,BRM1936,Moto G5S Plus (XT1802),Preto,Display quebrado,,Aguardando Compra,,
+104,2022-02-17 00:00:00,BRM1802,Moto G5S Plus (XT1802),Preto,Display quebrado,,Aguardando Compra,,
+105,2022-02-09 00:00:00,BRM2482,Moto G5S Plus (XT1802),Preto,"Display quebrado, carca?a/chassi avariados",,Aguardando Compra,,
+106,2022-02-28 00:00:00,BRM2014,Moto G5S Plus (XT1802),Preto,Display quebrado,,Aguardando Compra,,
+107,2022-02-28 00:00:00,BRM1921,Moto G5S Plus (XT1802),Preto,Display quebrado,,Aguardando Compra,,
+108,2022-02-28 00:00:00,BRM2092,Moto G5S Plus (XT1802),Preto,Display manchado,,Aguardando Compra,,
+109,2022-03-02 00:00:00,BRM1924,Moto G5S Plus (XT1802),Preto,Display quebrado,,Aguardando Compra,,
+110,2022-03-02 00:00:00,BRM1822,Moto G5S Plus (XT1802),Preto,Display quebrado,,Aguardando Compra,,
+111,2022-03-02 00:00:00,BRM2005,Moto G5S Plus (XT1802),Preto,Display quebrado,,Aguardando Compra,,
+112,2022-03-02 00:00:00,BRM2041,Moto G5S Plus (XT1802),Preto,Display quebrado,,Aguardando Compra,,
+113,2022-03-02 00:00:00,BRM1906,Moto G5S Plus (XT1802),Preto,Display quebrado,,Aguardando Compra,,
+114,2022-03-02 00:00:00,BRM1941,Moto G5S Plus (XT1802),Preto,Display quebrado,,Aguardando Compra,,
+115,2022-03-03 00:00:00,BRM2418,Moto G5S Plus (XT1802),Preto,Display quebrado,,Aguardando Compra,,
+116,2022-03-03 00:00:00,BRM1804,Moto G5S Plus (XT1802),Preto,Display quebrado,,Aguardando Compra,,
+117,2022-03-03 00:00:00,BRM2122,Moto G5S Plus (XT1802),Preto,Display quebrado,,Aguardando Compra,,
+118,2022-03-03 00:00:00,BRM1854,Moto G5S Plus (XT1802),Preto,Display quebrado,,Aguardando Compra,,
+119,2022-01-20 00:00:00,BRM2067,Moto G5S Plus (XT1802),Preto,N?o Liga,,Aguardando Compra,,
+120,2022-02-15 00:00:00,BRM1938,Moto G5S Plus (XT1802),Preto,Lente da C?mera Traseira Avariada,Falta display,Aguardando Compra,,
+121,2022-02-15 00:00:00,BRM1816,Moto G5S Plus (XT1802),Preto,Bateria estufada,Bateria trocada,Consertado,Suporte,2022-02-17
+122,2022-02-09 00:00:00,BRM1926,Moto G5S Plus (XT1802),Preto,"Display quebrado, bateria estufada e falta Slot SIM Card",,Aguardando Compra,,
+123,2022-02-16 00:00:00,BRM2402,Moto G5S Plus (XT1802),Preto,Display e lente da c?mera traseira danificados,,Aguardando Compra,,
+124,2022-02-16 00:00:00,BRM2094,Moto G5S Plus (XT1802),Preto,Carca?a avariada,,Aguardando Compra,,
+125,2022-02-16 00:00:00,BRM2073,Moto G5S Plus (XT1802),Preto,Display e lente da c?mera traseira danificados,,Aguardando Compra,,
+126,2022-02-16 00:00:00,BRM2444,Moto G5S Plus (XT1802),Preto,Display e lente da c?mera traseira danificados,,Aguardando Compra,,
+127,2022-02-16 00:00:00,BRM2053,Moto G5S Plus (XT1802),Preto,"Display, lente da c?mera traseira e carca?a danificados ",,Aguardando Compra,,
+128,2022-02-17 00:00:00,BRM1932,Moto G5S Plus (XT1802),Preto,Display e lente da c?mera traseira danificados,,Aguardando Compra,,
+129,2022-02-17 00:00:00,BRM2052,Moto G5S Plus (XT1802),Preto,Display e lente da c?mera traseira danificados,,Aguardando Compra,,
+130,2022-02-17 00:00:00,BRM2009,Moto G5S Plus (XT1802),Preto,Display e lente da c?mera traseira danificados,,Aguardando Compra,,
+131,2022-02-17 00:00:00,BRM1865,Moto G5S Plus (XT1802),Preto,Conector de carga,Perda Total,Aguardando Compra,,2022-02-18
+132,2022-02-28 00:00:00,BRM1827,Moto G5S Plus (XT1802),Preto,Bateria estufada,,Aguardando Compra,,
+133,2022-02-28 00:00:00,BRM1946,Moto G5S Plus (XT1802),Preto,Lente da C?mera Traseira Avariada,,Aguardando Reparo,,
+134,2022-02-28 00:00:00,BRM1929,Moto G5S Plus (XT1802),Preto,Bateria estufada,,Aguardando Compra,,
+135,2022-02-28 00:00:00,BRM2076,Moto G5S Plus (XT1802),Preto,Carca?a e Display avariado,,Aguardando An�lise,,
+136,2022-02-28 00:00:00,BRM2571,Moto G5S Plus (XT1802),Preto,Carca?a e Display avariado,,Aguardando Compra,,
+137,2022-02-28 00:00:00,BRM2072,Moto G5S Plus (XT1802),Preto,Bateria estufada,,Aguardando Compra,,
+138,2022-02-28 00:00:00,BRM1827,Moto G5S Plus (XT1802),Preto,Bateria estufada,,Aguardando Compra,,
+139,2022-03-02 00:00:00,BRM1853,Moto G5S Plus (XT1802),Preto,Display quebrado e lente da c?mera traseira trincada,,Aguardando Compra,,
+140,2022-03-02 00:00:00,BRM2054,Moto G5S Plus (XT1802),Preto,Display quebrado e lente da c?mera traseira trincada,,Aguardando Compra,,
+141,2022-03-02 00:00:00,BRM2071,Moto G5S Plus (XT1802),Preto,Display quebrado e lente da c?mera traseira trincada,,Aguardando Compra,,
+142,2022-03-02 00:00:00,BRM2403,Moto G5S Plus (XT1802),Preto,Lente da C?mera Traseira Avariada,,Aguardando Reparo,,
+143,2022-03-02 00:00:00,BRM1979,Moto G5S Plus (XT1802),Preto,Lente da C?mera Traseira Avariada,,Aguardando Reparo,,
+144,2022-03-02 00:00:00,BRM2619,Moto G5S Plus (XT1802),Preto,Carca?a avariada,,Aguardando Compra,,
+145,2022-03-02 00:00:00,BRM2039,Moto G5S Plus (XT1802),Preto,Bateria estufada,,Aguardando Compra,,
+146,2022-03-03 00:00:00,BRM1916,Moto G5S Plus (XT1802),Preto,Display quebrado e lente da c?mera traseira trincada,,Aguardando Compra,,
+147,2022-03-03 00:00:00,BRM1842,Moto G5S Plus (XT1802),Preto,"Bateria estufada, display quebrado",,Aguardando Compra,,
+148,2022-03-03 00:00:00,BRM1960,Moto G5S Plus (XT1802),Preto,"Display quebrado, carca?a avariada",,Aguardando Compra,,
+149,2022-03-03 00:00:00,BRM2439,Moto G5S Plus (XT1802),Preto,Bateria n?o segura carga,,Aguardando Compra,,
+150,2022-03-03 00:00:00,BRM1895,Moto G5S Plus (XT1802),Preto,Bateria estufada,,Aguardando Compra,,
+151,2022-03-03 00:00:00,BRM1823,Moto G5S Plus (XT1802),Preto,Bateria estufada,,Aguardando Compra,,
+152,2022-03-03 00:00:00,BRM1920,Moto G5S Plus (XT1802),Preto,Bateria estufada,,Aguardando Compra,,
+153,2022-03-03 00:00:00,BRM1881,Moto G5S Plus (XT1802),Preto,Bateria n?o segura carga,,Aguardando Compra,,
+154,2022-03-04 00:00:00,BRM2008,Moto G5S Plus (XT1802),Preto,Bateria n?o segura carga,,Aguardando Compra,,
+155,2022-03-04 00:00:00,BRM1214,Moto G5S Plus (XT1802),Preto,Bateria n?o segura carga,,Aguardando Compra,,
+156,2022-03-04 00:00:00,BRM1873,Moto G5S Plus (XT1802),Preto,Bateria n?o segura carga,,Aguardando Compra,,
+157,2022-03-04 00:00:00,BRM1943,Moto G5S Plus (XT1802),Preto,Bateria n?o segura carga,,Aguardando Compra,,
+158,2022-03-04 00:00:00,BRM2612,Moto G5S Plus (XT1802),Preto,Bateria n?o segura carga,,Aguardando Compra,,
+159,2022-03-04 00:00:00,BRM4512,Moto G5S Plus (XT1802),Preto,Bateria e carca?a avariada,,Aguardando Compra,,
+160,2022-03-07 00:00:00,BRM2133,Moto G5S Plus (XT1802),Preto,Bateria e carca?a avariada,,Aguardando Compra,,
+161,2022-03-07 00:00:00,BRM2026,Moto G5S Plus (XT1802),Preto,Bateria e carca?a avariada,,Aguardando Compra,,
+162,2022-03-07 00:00:00,BRM1962,Moto G5S Plus (XT1802),Preto,Bateria e carca?a avariada,,Aguardando Compra,,
+163,2022-03-07 00:00:00,BRM1809,Moto G5S Plus (XT1802),Preto,Bateria e carca?a avariada,,Aguardando Compra,,
+164,2022-03-07 00:00:00,BRM2569,Moto G5S Plus (XT1802),Preto,Bateria e carca?a avariada,,Aguardando Compra,,
+165,2022-03-07 00:00:00,BRM1810,Moto G5S Plus (XT1802),Preto,Bateria e carca?a avariada,,Aguardando Compra,,
+166,2022-03-08 00:00:00,BRM1858,Moto G5S Plus (XT1802),Preto,Carca?a avariada,,Aguardando Compra,,
+167,2022-03-08 00:00:00,BRM2060,Moto G5S Plus (XT1802),Preto,"Display Quebrado, vidro da C?mera Danificado, carca?a Avariada",,Aguardando Compra,,
+168,2022-03-08 00:00:00,BRM2485,Moto G5S Plus (XT1802),Preto,Perda total,,Aguardando Compra,,
+169,2022-03-08 00:00:00,BRM2608,Moto G5S Plus (XT1802),Preto,Bateria n?o segura carga,,Aguardando Compra,,
+170,2022-03-08 00:00:00,BRM2583,Moto G5S Plus (XT1802),Preto,Bateria n?o segura carga,,Aguardando Compra,,
+171,2022-03-08 00:00:00,BRM1811,Moto G5S Plus (XT1802),Preto,Bateria n?o segura carga,,Aguardando Compra,,
+172,2022-03-08 00:00:00,BRM2408,Moto G5S Plus (XT1802),Preto,Bateria n?o segura carga,,Aguardando Compra,,
+173,2022-03-09 00:00:00,BRM2007,Moto G5S Plus (XT1802),Preto,Bateria n?o segura carga,,Aguardando Compra,,
+174,2022-02-01 00:00:00,BRM2632,Moto G6 Play (XT1922),Indigo,N?o carrega,Conector de carga reparado,Consertado,Movido para estoque,2022-02-04
+175,2022-03-07 00:00:00,BRM4379,Moto G6 Play (XT1922),Indigo,Lente da C?mera Traseira Avariada,,Aguardando Compra,,
+176,2022-02-04 00:00:00,BRM2835,Moto G6 Play (XT1922),Indigo,Display/Touch,Display trocado,Consertado,Estoque,2022-02-08
+177,2021-12-21 00:00:00,BRM2386,Moto G6 Play (XT1922),Indigo,"Display Quebrado, Tampa Traseira Avariada",Display trocado,Consertado,Movido para suporte,2022-01-31
+178,2022-02-07 00:00:00,BRM2750,Moto G6 Play (XT1922),Indigo,"Display quebrado, N?o carrega E C?mera traseira quebrada",Falta display,Aguardando Compra,,2022-02-16
+179,2022-02-07 00:00:00,BRM2757,Moto G6 Play (XT1922),Indigo,"Display quebrado, N?o carrega",Display e bateria trocado,Consertado,Suporte,2022-02-10
+180,2022-02-07 00:00:00,BRM2773,Moto G6 Play (XT1922),Indigo,"Display quebrado, N?o carrega",Display e bateria trocado,Consertado,Estoque,2022-02-11
+181,2021-12-22 00:00:00,BRM2781,Moto G6 Play (XT1922),Indigo,"Display Quebrado, Lente da C?mera Traseira Avariada, Tampa Traseira Avariada",Problema na USB,Sucata,,2022-02-28
+182,2021-12-20 00:00:00,BRM2396,Moto G6 Play (XT1922),Indigo,"Display quebrado, carca?a torta",Display trocado,Consertado,Movido para suporte,2022-01-28
+183,2022-01-12 00:00:00,BRM4536,Moto G6 Play (XT1922),Indigo,Conector de Carga/N?o Reconhece USB/N?o carrega,"N?o reconhece USB, problema na placa principal",Aguardando An�lise,,2022-02-08
+184,2022-01-12 00:00:00,BRM4534,Moto G6 Play (XT1922),Indigo,Conector de Carga/N?o Reconhece USB/N?o carrega,N?o reconhece USB,Aguardando An�lise,,2022-02-28
+185,2022-01-27 00:00:00,BRM4611,Moto G6 Play (XT1922),Indigo,Conector de Carga/N?o Reconhece USB/N?o carrega,Bateria trocada,Consertado,Movido para suporte,2022-02-01
+186,2022-01-27 00:00:00,BRM2812,Moto G6 Play (XT1922),Indigo,Bot?o power,Bot?o power arrumado,Consertado,Movido para estoque,2022-02-01
+187,2022-02-07 00:00:00,BRM2762,Moto G6 Play (XT1922),Indigo,"Display quebrado, C?mera traseira quebrada e n?o carrega",Falta display,Aguardando Compra,,2022-02-16
+188,2022-02-07 00:00:00,BRM2649,Moto G6 Play (XT1922),Indigo,"Display quebrado, Bateria",Falta display,Aguardando Compra,,2022-02-16
+189,2022-02-02 00:00:00,BRM2816,Moto G6 Play (XT1922),Indigo,Display Quebrado,Display trocado,Consertado,Suporte,2022-02-07
+190,2022-01-27 00:00:00,BRM2246,Moto G6 Play (XT1922),Indigo,Display Quebrado,Display trocado,Consertado,Movido para suporte,2022-02-02
+191,2022-01-27 00:00:00,BRM2390,Moto G6 Play (XT1922),Indigo,Display Quebrado,Display trocado,Consertado,Movido para suporte,2022-02-01
+192,2021-12-21 00:00:00,BRM2835,Moto G6 Play (XT1922),Indigo,Display Quebrado,"Display, Carca?a e bateria trocados",Consertado,Movido para suporte,2022-02-04
+193,2022-03-08 00:00:00,BRM4559,Moto G6 Play (XT1922),Indigo,Bateria n?o segura carga,,Aguardando Reparo,,
+194,2021-12-22 00:00:00,BRM2655,Moto G6 Play (XT1922),Indigo,Display Quebrado,Display trocado,Consertado,Movido para suporte,2022-01-31
+195,2022-01-19 00:00:00,BRM2769,Moto G6 Play (XT1922),Indigo,Display Quebrado,Display trocado,Consertado,Movido para suporte,2022-02-02
+196,2021-12-22 00:00:00,BRM2816,Moto G6 Play (XT1922),Indigo,Display Quebrado,Display trocado,Consertado,Movido para suporte,2022-02-01
+197,2022-01-19 00:00:00,BRM2859,Moto G6 Play (XT1922),Indigo,Display Quebrado,"Lente da c?mera, tampa traseira e display trocados",Consertado,Movido para suporte,2022-01-31
+198,2022-01-25 00:00:00,BRM8393,Moto G6 Play (XT1922),Indigo,Display Quebrado,Display trocado,Consertado,Movido para estoque,2022-02-03
+199,2022-02-04 00:00:00,BRM2770,Moto G6 Play (XT1922),Indigo,Display quebrado,Display e Bateria trocada,Consertado,Suporte,2022-02-11
+200,2022-01-19 00:00:00,BRM5660,Moto G6 Play (XT1922),Indigo,Display Quebrado,Display e bateria trocada,Consertado,Movido para suporte,2022-02-03
+201,2022-02-07 00:00:00,BRM2882,Moto G6 Play (XT1922),Indigo,Display quebrado,Display trocado,Consertado,Suporte,2022-02-11
+202,2022-02-07 00:00:00,BRM2843,Moto G6 Play (XT1922),Indigo,Display quebrado,,Aguardando Compra,,
+203,2022-02-07 00:00:00,BRM2856,Moto G6 Play (XT1922),Indigo,Display quebrado,Display trocado,Consertado,Suporte,2022-02-10
+204,2022-02-17 00:00:00,TAB2669,Moto G6 Play (XT1922),Indigo,Display quebrado,,Aguardando Compra,,
+205,2021-12-22 00:00:00,BRM2262,Moto G6 Play (XT1922),Indigo,Display Manchado,Display trocado,Consertado,Movido para suporte,2022-01-31
+206,2022-01-12 00:00:00,BRM4138,Moto G6 Play (XT1922),Indigo,"Conector de Carga/N?o Reconhece USB/N?o carrega, Display Quebrado","Display e bateria trocada, n?o reconhece USB",Sucata,,2022-02-28
+207,2021-12-22 00:00:00,BRM2632,Moto G6 Play (XT1922),Indigo,"Bateria, Display Quebrado","Display , bateria trocada",Consertado,Movido para suporte,2022-01-31
+208,2021-12-22 00:00:00,BRM2796,Moto G6 Play (XT1922),Indigo,"Bateria, Display Quebrado",Display e bateria trocada,Consertado,Movido para suporte,2022-02-02
+209,2022-01-12 00:00:00,BRM5667,Moto G6 Play (XT1922),Preto,Bateria,N?o reconhece USB,Sucata,,2022-02-08
+210,2022-01-27 00:00:00,BRM5657,Moto G6 Play (XT1922),Indigo,Bateria,Bateria e tampa traseira trocado,Consertado,Movido para estoque,2022-01-31
+211,2022-01-17 00:00:00,BRM5859,Moto G8 Play (XT2015),Preto,Bateria,,Consertado,,2022-01-26
+212,2022-01-25 00:00:00,BRM6040,Moto G8 Play (XT2015),Preto,Bateria,,Consertado,,2022-01-25
+213,2021-12-15 00:00:00,BRM5926,Moto G8 Play (XT2015),Preto,"Carca?a/Chassi Avariada, Display Quebrado","Display, Aro do display, carca?a e lente da c?mera traseira trocados",Consertado,Movido para estoque,2022-02-07
+214,2022-01-07 00:00:00,BRM6096,Moto G8 Play (XT2015),Preto,"Conector de Carga/N?o Reconhece USB/N?o carrega, Display Quebrado",Display e conector de carga trocado,Consertado,Movido para estoque,2022-02-07
+215,2022-03-07 00:00:00,BRM7695,Moto G8 Play (XT2015),Preto,Display manchado,,Aguardando Reparo,,
+216,2022-02-03 00:00:00,BRM5849,Moto G8 Play (XT2015),Preto,Display quebrado,Display e Slot SIM Card trocados,Consertado,Estoque,2022-02-10
+217,2022-03-09 00:00:00,BRM2249,Moto G6 Play (XT1922),Indigo,"Display Quebrado, Tampa Traseira Avariada",,Aguardando Compra,,
+218,2022-03-09 00:00:00,BRM1939,Moto G5S Plus (XT1802),Preto,Display quebrado,,Aguardando Compra,,
+219,2022-03-11 00:00:00,BRM4017,Galaxy S8 (G950),Preto,"Display e tampa traseira quebrados, bateria n?o carrega",,Aguardando Compra,,
+220,2022-03-11 00:00:00,BRM4033,Galaxy S8 (G950),Preto,Display Quebrado,,Aguardando Compra,,
+221,2022-03-11 00:00:00,BRM5560,Galaxy S8 (G950),Preto,Display Quebrado,,Aguardando Compra,,
+222,2022-03-15 10:19:43,BRM1220,Moto G5S Plus (XT1802),Preto,Não liga,,Sucata,,2022-03-14
+223,2022-03-15 10:19:43,BRM1213,Moto G5S Plus (XT1802),Preto,"Display Manchado, Carcaça Avariada, Bateria",,Aguardando Compra,,1990-01-01
+224,2022-03-15 10:23:24,BRM2116,Moto G5S Plus (XT1802),Preto,Bateria estufada,,Aguardando Compra,,1990-01-01
+225,2022-03-15 10:23:24,BRM1988,Moto G5S Plus (XT1802),Preto,Bateria estufada,,Aguardando Compra,,1990-01-01
+226,2022-03-15 14:10:49,CEL0046,Galaxy S7 (G930),Dourado,Display quebrado,,Aguardando Reparo,,1990-01-01
+227,2022-03-15 14:10:49,BRM4045,Galaxy S7 (G930),Dourado,Não Carrega,,Aguardando Reparo,,1990-01-01
+228,2022-03-15 14:10:49,BRM1219,Moto G5S Plus (XT1802),Preto,"Não carrega, Vidro da lente traseira quebrado",,Aguardando Compra,,1990-01-01
+229,2022-03-15 14:10:49,TAB1685,"Galaxy Tab A6 7"" (T280)",Preto,Botão power,,Aguardando Análise,Veio como problema no touch mas está OK,1990-01-01
+230,2022-03-15 14:10:49,TAB1588,"Galaxy Tab A6 7"" (T280)",Preto,Chip Preso,,Aguardando Reparo,,1990-01-01
