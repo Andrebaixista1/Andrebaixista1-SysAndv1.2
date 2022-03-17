@@ -107,7 +107,7 @@ namespace SysAnd___Fix_Mobile_v1._2
                     if (dt.HasRows)
                     {
                         
-                        teste();
+                        
                         
 
                         frmMenu menu = new frmMenu();
