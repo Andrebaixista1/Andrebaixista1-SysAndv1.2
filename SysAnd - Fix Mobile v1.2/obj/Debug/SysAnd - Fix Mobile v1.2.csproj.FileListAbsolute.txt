@@ -26,4 +26,5 @@ C:\Users\Administrador\Documents\SistemaFixMobile v1.3\SistemaFixMobile v1.2\Sys
 C:\Users\Administrador\Documents\SistemaFixMobile v1.3\SistemaFixMobile v1.2\SysAnd - Fix Mobile v1.2\SysAnd - Fix Mobile v1.2\bin\Debug\ExcelNumberFormat.xml
 C:\Users\Administrador\Documents\SistemaFixMobile v1.3\SistemaFixMobile v1.2\SysAnd - Fix Mobile v1.2\SysAnd - Fix Mobile v1.2\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
 C:\Users\Administrador\Documents\SistemaFixMobile v1.3\SistemaFixMobile v1.2\SysAnd - Fix Mobile v1.2\SysAnd - Fix Mobile v1.2\obj\Debug\SysAnd - Fix Mobile v1.2.csproj.CopyComplete
-C:\Users\Administrador\Documents\SistemaFixMobile v1.3\SistemaFixMobile v1.2\SysAnd - Fix Mobile v1.2\SysAnd - Fix Mobile v1.2\obj\Debug\SysAnd___Fix_Mobile_v1._2.frmLogsDeslog.resources
+C:\Users\Administrador\Documents\SistemaFixMobile v1.3\SistemaFixMobile v1.2\SysAnd - Fix Mobile v1.2\SysAnd - Fix Mobile v1.2\obj\Debug\SysAnd___Fix_Mobile_v1._2.frmPontos.resources
+C:\Users\Administrador\Documents\SistemaFixMobile v1.3\SistemaFixMobile v1.2\SysAnd - Fix Mobile v1.2\SysAnd - Fix Mobile v1.2\obj\Debug\SysAnd___Fix_Mobile_v1._2.frmTeste.resources

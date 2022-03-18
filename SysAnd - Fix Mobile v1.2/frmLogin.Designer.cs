@@ -29,7 +29,11 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnMax = new System.Windows.Forms.PictureBox();
+            this.btnRest = new System.Windows.Forms.PictureBox();
+            this.btnMin = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.btnClose = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -37,8 +41,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.txtLogin = new System.Windows.Forms.TextBox();
@@ -47,29 +49,74 @@
             this.btnCriarLogin = new System.Windows.Forms.Button();
             this.btnLogin = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.lblClose = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMax)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRest)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMin)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnClose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.AutoSize = true;
             this.panel1.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.panel1.Controls.Add(this.btnMax);
+            this.panel1.Controls.Add(this.btnRest);
+            this.panel1.Controls.Add(this.btnMin);
             this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.btnClose);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(331, 681);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // btnMax
+            // 
+            this.btnMax.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMax.Image = global::SysAnd___Fix_Mobile_v1._2.Properties.Resources.icons8_maximizar_janela_301;
+            this.btnMax.Location = new System.Drawing.Point(63, 3);
+            this.btnMax.Name = "btnMax";
+            this.btnMax.Size = new System.Drawing.Size(30, 30);
+            this.btnMax.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.btnMax.TabIndex = 16;
+            this.btnMax.TabStop = false;
+            this.btnMax.Click += new System.EventHandler(this.btnMax_Click);
+            // 
+            // btnRest
+            // 
+            this.btnRest.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRest.Image = global::SysAnd___Fix_Mobile_v1._2.Properties.Resources.icons8_restaurar_janela_301;
+            this.btnRest.Location = new System.Drawing.Point(62, 3);
+            this.btnRest.Name = "btnRest";
+            this.btnRest.Size = new System.Drawing.Size(30, 30);
+            this.btnRest.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.btnRest.TabIndex = 17;
+            this.btnRest.TabStop = false;
+            this.btnRest.Click += new System.EventHandler(this.btnRest_Click);
+            // 
+            // btnMin
+            // 
+            this.btnMin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMin.Image = global::SysAnd___Fix_Mobile_v1._2.Properties.Resources.icons8_minimizar_janela_30;
+            this.btnMin.Location = new System.Drawing.Point(33, 3);
+            this.btnMin.Name = "btnMin";
+            this.btnMin.Size = new System.Drawing.Size(30, 30);
+            this.btnMin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.btnMin.TabIndex = 15;
+            this.btnMin.TabStop = false;
+            this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
             // 
             // label4
             // 
@@ -81,6 +128,18 @@
             this.label4.Size = new System.Drawing.Size(73, 16);
             this.label4.TabIndex = 4;
             this.label4.Text = "André Felipe";
+            // 
+            // btnClose
+            // 
+            this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnClose.Image = global::SysAnd___Fix_Mobile_v1._2.Properties.Resources.icons8_fechar_janela_30;
+            this.btnClose.Location = new System.Drawing.Point(4, 3);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(30, 30);
+            this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.btnClose.TabIndex = 14;
+            this.btnClose.TabStop = false;
+            this.btnClose.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // label3
             // 
@@ -99,7 +158,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.Snow;
-            this.label2.Location = new System.Drawing.Point(28, 284);
+            this.label2.Location = new System.Drawing.Point(28, 314);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(258, 25);
             this.label2.TabIndex = 2;
@@ -111,7 +170,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Snow;
-            this.label1.Location = new System.Drawing.Point(28, 260);
+            this.label1.Location = new System.Drawing.Point(28, 290);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(169, 24);
             this.label1.TabIndex = 1;
@@ -121,7 +180,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::SysAnd___Fix_Mobile_v1._2.Properties.Resources.logoFIX;
-            this.pictureBox1.Location = new System.Drawing.Point(49, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(49, 42);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(225, 225);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -131,6 +190,7 @@
             // 
             // label5
             // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 22F);
             this.label5.ForeColor = System.Drawing.SystemColors.HotTrack;
@@ -142,6 +202,7 @@
             // 
             // label6
             // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 29F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.SystemColors.HotTrack;
@@ -161,26 +222,6 @@
             this.label7.Size = new System.Drawing.Size(55, 21);
             this.label7.TabIndex = 8;
             this.label7.Text = "Login:";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::SysAnd___Fix_Mobile_v1._2.Properties.Resources.unlock;
-            this.pictureBox3.Location = new System.Drawing.Point(131, 153);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox3.TabIndex = 9;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::SysAnd___Fix_Mobile_v1._2.Properties.Resources.user;
-            this.pictureBox2.Location = new System.Drawing.Point(130, 57);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox2.TabIndex = 7;
-            this.pictureBox2.TabStop = false;
             // 
             // label8
             // 
@@ -225,6 +266,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.groupBox1.AutoSize = true;
             this.groupBox1.Controls.Add(this.btnCriarLogin);
             this.groupBox1.Controls.Add(this.btnLogin);
             this.groupBox1.Controls.Add(this.panel2);
@@ -244,6 +287,7 @@
             // btnCriarLogin
             // 
             this.btnCriarLogin.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnCriarLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCriarLogin.FlatAppearance.BorderSize = 0;
             this.btnCriarLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCriarLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
@@ -259,6 +303,7 @@
             // btnLogin
             // 
             this.btnLogin.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLogin.FlatAppearance.BorderSize = 0;
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
@@ -279,20 +324,29 @@
             this.panel2.Size = new System.Drawing.Size(241, 1);
             this.panel2.TabIndex = 13;
             // 
-            // lblClose
+            // pictureBox2
             // 
-            this.lblClose.AutoSize = true;
-            this.lblClose.Font = new System.Drawing.Font("Century Gothic", 22F, System.Drawing.FontStyle.Bold);
-            this.lblClose.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblClose.Location = new System.Drawing.Point(973, 9);
-            this.lblClose.Name = "lblClose";
-            this.lblClose.Size = new System.Drawing.Size(37, 37);
-            this.lblClose.TabIndex = 12;
-            this.lblClose.Text = "X";
-            this.lblClose.Click += new System.EventHandler(this.lblClose_Click);
+            this.pictureBox2.Image = global::SysAnd___Fix_Mobile_v1._2.Properties.Resources.user;
+            this.pictureBox2.Location = new System.Drawing.Point(130, 57);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox2.TabIndex = 7;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::SysAnd___Fix_Mobile_v1._2.Properties.Resources.unlock;
+            this.pictureBox3.Location = new System.Drawing.Point(131, 153);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox3.TabIndex = 9;
+            this.pictureBox3.TabStop = false;
             // 
             // label9
             // 
+            this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 8F);
             this.label9.ForeColor = System.Drawing.Color.Black;
@@ -308,7 +362,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1020, 681);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.lblClose);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -321,11 +374,15 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMax)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRest)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMin)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnClose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -350,10 +407,13 @@
         private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label lblClose;
         private System.Windows.Forms.Button btnCriarLogin;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.PictureBox btnClose;
+        private System.Windows.Forms.PictureBox btnMin;
+        private System.Windows.Forms.PictureBox btnMax;
+        private System.Windows.Forms.PictureBox btnRest;
     }
 }
 

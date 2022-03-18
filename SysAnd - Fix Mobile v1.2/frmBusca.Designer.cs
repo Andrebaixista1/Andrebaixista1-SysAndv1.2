@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblClose2 = new System.Windows.Forms.Label();
             this.dgvBusca = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtBusca = new System.Windows.Forms.TextBox();
@@ -44,18 +43,6 @@
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // lblClose2
-            // 
-            this.lblClose2.AutoSize = true;
-            this.lblClose2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold);
-            this.lblClose2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblClose2.Location = new System.Drawing.Point(895, 7);
-            this.lblClose2.Name = "lblClose2";
-            this.lblClose2.Size = new System.Drawing.Size(27, 25);
-            this.lblClose2.TabIndex = 71;
-            this.lblClose2.Text = "X";
-            this.lblClose2.Click += new System.EventHandler(this.lblClose2_Click);
             // 
             // dgvBusca
             // 
@@ -186,7 +173,6 @@
             this.Controls.Add(this.lblData);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dgvBusca);
-            this.Controls.Add(this.lblClose2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmBusca";
             this.Text = "frmBusca";
@@ -202,8 +188,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lblClose2;
         private System.Windows.Forms.DataGridView dgvBusca;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txtBusca;

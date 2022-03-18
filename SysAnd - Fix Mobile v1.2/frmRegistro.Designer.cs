@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.txtSaida = new System.Windows.Forms.MaskedTextBox();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnAlterar = new System.Windows.Forms.Button();
@@ -55,9 +54,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.cbSaida = new System.Windows.Forms.CheckBox();
             this.btnExcluir = new System.Windows.Forms.Button();
-            this.lblClose2 = new System.Windows.Forms.Label();
             this.txtBuscar = new System.Windows.Forms.TextBox();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTabela)).BeginInit();
             this.SuspendLayout();
             // 
@@ -382,18 +379,6 @@
             this.btnExcluir.UseVisualStyleBackColor = true;
             this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
-            // lblClose2
-            // 
-            this.lblClose2.AutoSize = true;
-            this.lblClose2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold);
-            this.lblClose2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lblClose2.Location = new System.Drawing.Point(895, 7);
-            this.lblClose2.Name = "lblClose2";
-            this.lblClose2.Size = new System.Drawing.Size(27, 25);
-            this.lblClose2.TabIndex = 70;
-            this.lblClose2.Text = "X";
-            this.lblClose2.Click += new System.EventHandler(this.lblClose2_Click);
-            // 
             // txtBuscar
             // 
             this.txtBuscar.Location = new System.Drawing.Point(440, 158);
@@ -404,17 +389,11 @@
             this.txtBuscar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtBuscar_MouseClick);
             this.txtBuscar.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
             // frmRegistro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.txtBuscar);
-            this.Controls.Add(this.lblClose2);
             this.Controls.Add(this.cbSaida);
             this.Controls.Add(this.txtSaida);
             this.Controls.Add(this.btnCancelar);
@@ -478,8 +457,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckBox cbSaida;
         private System.Windows.Forms.Button btnExcluir;
-        private System.Windows.Forms.Label lblClose2;
         private System.Windows.Forms.TextBox txtBuscar;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
     }
 }

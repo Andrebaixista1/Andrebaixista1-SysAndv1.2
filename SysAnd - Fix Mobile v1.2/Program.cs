@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
+
 namespace SysAnd___Fix_Mobile_v1._2
 {
     internal static class Program
@@ -13,7 +14,7 @@ namespace SysAnd___Fix_Mobile_v1._2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmLogin());
+            Application.Run(new frmMenu());
         }
     }
 }

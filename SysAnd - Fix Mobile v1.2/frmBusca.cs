@@ -213,6 +213,16 @@ namespace SysAnd___Fix_Mobile_v1._2
             Process.Start(new ProcessStartInfo(@"C:\Users\Administrador\Desktop\FixManutençãoFicha.xlsx") { UseShellExecute = true });
 
         }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnMin_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }
 

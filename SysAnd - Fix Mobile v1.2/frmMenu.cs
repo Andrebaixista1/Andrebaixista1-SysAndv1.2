@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Windows.Forms;
@@ -11,6 +12,7 @@ namespace SysAnd___Fix_Mobile_v1._2
         {
             InitializeComponent();
         }
+        
 
         SqlConnection cn = new SqlConnection(@"Data Source=brm3907\SQLEXPRESS;integrated security=SSPI;initial Catalog=FixMobileDataBase;"); // Conecta ao DB
         SqlCommand cmd = new SqlCommand(); // Aceita comandos em SQL
@@ -118,13 +120,77 @@ namespace SysAnd___Fix_Mobile_v1._2
         private void frmRegistro1_Load_1(object sender, EventArgs e)
         {
             
-            
+
         }
 
         private void btnHoras_Click(object sender, EventArgs e)
         {
-            ActiveButton(btnHoras);
-            FormShow(new frmLogsDeslog());
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnMin_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnMax_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+            btnMax.Hide();
+            btnRest.Show();
+        }
+
+        private void btnRest_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal;
+            btnRest.Hide();
+            btnMax.Show();
+        }
+
+        private void meusDadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void meuPontoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPontos ponto = new frmPontos();
+            ponto.Show();
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+
+
+
+            
+        }
+
+        private void btnSair_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+            frmTeste
+            teste.Hide();
+        }
+
+        private void frmRegistro2_Load(object sender, EventArgs e)
+        {
+            btnRest.Hide();
         }
     }
 }

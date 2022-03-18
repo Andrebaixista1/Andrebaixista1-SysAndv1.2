@@ -3,6 +3,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
 
+
 namespace SysAnd___Fix_Mobile_v1._2
 {
     public partial class frmLogin : Form
@@ -18,7 +19,7 @@ namespace SysAnd___Fix_Mobile_v1._2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            btnRest.Hide();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -57,29 +58,7 @@ namespace SysAnd___Fix_Mobile_v1._2
             MessageBox.Show("Esse recurso se encontra em desenvolvimento", "Informação - SysAndv1.2", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void teste()
-        {
-
-            /*cn.Open();*/
-            DateTime timeDate2 = DateTime.Now;
-            string login = txtLogin.Text;
-            string senha = txtSenha.Text;
-            string name_us = "André Felipe";
-
-            
-
-            string sql = "insert into registroDeLogin(dataHora,login_user,pass_user,nm_user) values(@timeDate2,@login,@senha,@name_us)";
-
-            SqlCommand cm = new SqlCommand(sql, cn);
-
-            cm.Parameters.Add("@timeDate2", SqlDbType.DateTime).Value = timeDate2;
-            cm.Parameters.Add("@login", SqlDbType.VarChar).Value = login;
-            cm.Parameters.Add("@senha", SqlDbType.VarChar).Value = senha;
-            cm.Parameters.Add("@name_us", SqlDbType.VarChar).Value = name_us;
-
-            cm.ExecuteNonQuery(); //Executar sem consulta
-            /*cn.Close();*/
-        }
+        
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
@@ -98,7 +77,9 @@ namespace SysAnd___Fix_Mobile_v1._2
                     cm.CommandText = "select * from user_loginADM where login_user = ('" + txtLogin.Text + "') and pass_user = ('" + txtSenha.Text + "') ";
                     cm.Connection = cn;
                     dt = cm.ExecuteReader();
-                    
+
+                    string login = txtLogin.Text;
+                    string senha = txtSenha.Text;
 
                     
 
@@ -107,14 +88,11 @@ namespace SysAnd___Fix_Mobile_v1._2
                     if (dt.HasRows)
                     {
                         
-                        
-                        
-
                         frmMenu menu = new frmMenu();
+                        frmTeste teste = new frmTeste(login, senha);
+
                         menu.Show();
                         this.Hide();
-
-                        
                     }
                     else
                     {
@@ -133,8 +111,8 @@ namespace SysAnd___Fix_Mobile_v1._2
                 }
                 finally
                 {
-                    
 
+                    
                     cn.Close();
                     
 
@@ -147,6 +125,40 @@ namespace SysAnd___Fix_Mobile_v1._2
         private void frmLogin_FormClosed(object sender, FormClosedEventArgs e)
         {
 
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click_1(object sender, EventArgs e)
+        {
+                this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnMin_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnMax_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+            btnMax.Hide();
+            btnRest.Show();
+        }
+
+        private void btnRest_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal;
+            btnRest.Hide();
+            btnMax.Show();
         }
     }
 }
